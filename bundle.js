@@ -88,13 +88,11 @@
                     return this._add(t, e, !0)
                 }
                 emit(t, ...e) {
-                  console.log(t, e);
-                  let res = window.parent.postMessage({
+                window.parent.postMessage({
                         id: "townland:app",
                         name: t,
                         params: e
                     }, "*")
-                 console.log(res)
                 }
                 _add(t, e, n) {
                     t in this.callback == 0 && (this.callback[t] = []),
