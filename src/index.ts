@@ -9,4 +9,6 @@ RenderModule(AppModule).then(module => document.getElementById('root')?.appendCh
 
 App.Event.on('app:ready', () => {
     // App is ready
+    document.body.style.backgroundColor = 'black'
+    document.body.style.color = 'white'
 })
