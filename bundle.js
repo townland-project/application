@@ -89,11 +89,12 @@
                 }
                 emit(t, ...e) {
                   console.log(t, e);
-                    window.parent.postMessage({
+                  let res = window.parent.postMessage({
                         id: "townland:app",
                         name: t,
                         params: e
-                    })
+                    }, "*")
+                 console.log(res)
                 }
                 _add(t, e, n) {
                     t in this.callback == 0 && (this.callback[t] = []),
