@@ -47,19 +47,5 @@
   },
   "browserslist": [
     "last 1 Chrome versions"
-  ],
-  "townland": {
-    "id": "xyz.townland.application",
-    "name": "Application",
-    "url": "https://application.townland.xyz/",
-    "permission": [],
-    "icon": {
-      "url": "https://application.townland.xyz/src/assets/logo.png",
-      "size": "24px"
-    },
-    "color": {
-      "background": "#fed330",
-      "shadow": "#f7b731"
-    }
-  }
+  ]
 }
